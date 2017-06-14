@@ -27,5 +27,14 @@
     <ClCompile Include="event.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mtkl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

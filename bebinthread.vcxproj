@@ -66,6 +66,9 @@
   <ItemGroup>
     <ClCompile Include="beginthread.cpp" />
     <ClCompile Include="event.cpp" />
+    <ClCompile Include="mtkl.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="win32_api_thread.cpp" />
     <ClCompile Include="global.cpp" />
   </ItemGroup>

@@ -1,10 +1,15 @@
-﻿生成启动时间为 2017/6/13 21:10:50。
+﻿生成启动时间为 2017/6/14 23:44:46。
      1>项目“G:\实验报告+三级项目\多核程序设计\程序\bebinthread\bebinthread\bebinthread.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt global.cpp
-         global.cpp
+         E:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sort.cpp
+         sort.cpp
+     1>g:\实验报告+三级项目\多核程序设计\程序\bebinthread\bebinthread\sort.cpp(58): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
        Link:
          E:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\实验报告+三级项目\多核程序设计\程序\bebinthread\Debug\bebinthread.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\实验报告+三级项目\多核程序设计\程序\bebinthread\Debug\bebinthread.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\实验报告+三级项目\多核程序设计\程序\bebinthread\Debug\bebinthread.lib" /MACHINE:X86 Debug\beginthread.obj
+         Debug\event.obj
+         Debug\mtkl.obj
+         Debug\sort.obj
+         Debug\test.obj
          Debug\win32_api_thread.obj
          Debug\global.obj
          bebinthread.vcxproj -> G:\实验报告+三级项目\多核程序设计\程序\bebinthread\Debug\bebinthread.exe
@@ -12,4 +17,4 @@
 
 生成成功。
 
-已用时间 00:00:01.57
+已用时间 00:00:01.84
